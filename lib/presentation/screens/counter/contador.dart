@@ -40,7 +40,7 @@ class _ContadorState extends State<Contador> {
           icon: const Icon(Icons.refresh_rounded),
 
           //cero inicial de la pantalla
-          onPressed:() => setState(() => clickContador = 0), //onPressed espera a la función que se ejecutará cuando se presiona el botón
+          onPressed: reiniciarContador, //onPressed espera a la función que se ejecutará cuando se presiona el botón
           //entonces cuando se presione se pone el estado el cual no más hace una acción, que es poner el contador a 0
       ),
     ],
